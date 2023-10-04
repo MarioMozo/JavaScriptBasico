@@ -1,9 +1,10 @@
 var arregloNombres = ["Frida", "Tomas", "Wilson"];
 
 function saludarEstudiante(arregloNombres){
-    console.log('Hola: ', ${arregloNombres});
+    console.log("Hola:" , arregloNombres);
+    console.log("Hola  ${arregloNombres}");
 
-}
+}   
 
 
 for(var i = 0; i < arregloNombres.length; i++){
